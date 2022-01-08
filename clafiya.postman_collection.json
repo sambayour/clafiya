@@ -1,0 +1,294 @@
+{
+	"info": {
+		"_postman_id": "ba94455d-83a5-41e8-9d1d-94d0eeb1bc0d",
+		"name": "clafiya",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Samuel Olubayo\",\r\n    \"phone\":\"08131631893\",\r\n    \"email\":\"samuelolubayo@gmail.com\",\r\n    \"password\":\"password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Samuel Olubayo\",\r\n    \"phone\":\"08131631893\",\r\n    \"email\":\"samuelolubayo@gmail.com\",\r\n    \"password\":\"password\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 07 Jan 2022 17:48:51 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 07 Jan 2022 17:48:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.3.25"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiM2U1ZWFhYmZhZGNkN2VjOWM3YzUzMzlhZTBjNTliY2JjNTdlZmUwNmY3MzhiMDJmOWYyYzNhMjljZDIxMDliMDdjYWQyZTI1ZDE3ZWIyZGMiLCJpYXQiOjE2NDE1Nzc3MzEsIm5iZiI6MTY0MTU3NzczMSwiZXhwIjoxNjczMTEzNzMxLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.D3vSTM7Im5CORih3NYOxVnV8ljBImbN-Z4dkSFK4S4EtpHC8JEHfql1jkjY3CUkvyf0CKTqRQXaSkq_TFswo1_k0RC4bekd65_3UN79kCxPKLpa815hQM9JXiKI1W8YYtGnAnBb0ytX4TRUTh_Ssl7J9h2wTZYOKumWD4tl08V2xxZ39VDzBP93d9c_RyzI1YSzQATbJVZBb4GqkadHULk1bTCllsfxSVc5fVLwYChSvN-buMovysSXlDczORl21wsm5s7K8Tn713Ez5zhp0MdQoxaEvT5LZl6ysUaXKDFmMElLmMyIFLtQ2HPBcipOHXbZDF4WrDucqlUJsjNKA_QkYguVuqMogzUo6gPSzc3igdB7Air2RL27eGJ_rw5P1lFVug6GZ_FfyYt9kFyTEFo34Sxk7n4GQ2WY5QfmFhTOb0LvMXbTX9DDmelWmA1_aw26bMMOji2CTQflyllFdwQj5dxxcypQ88LKymK4VX1yPwSfEZah3FtNVtwN4BjmSAaeNd5mDwTR-hRyne5UeWCc2Occ05C8VJdxF6jNP1lZsJHklZOw5R5rsQW1B4fn9kM5ZPNKWtcmW2bkRFJDCSROKxgPmnxvGaiydNSuFFrW6OuUqPtPrcRAZP8gCN7Lfq3__5uHWAtMlLL97Cq0GSwkmykesn0LQF-DbUVb442Y\",\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Samuel Olubayo\",\n        \"email\": \"samuelolubayo@gmail.com\",\n        \"phone\": \"08131631893\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2022-01-07T17:48:51.000000Z\",\n        \"updated_at\": \"2022-01-07T17:48:51.000000Z\"\n    },\n    \"status\": \"ok\",\n    \"success\": true,\n    \"message\": \"New User Registration Successful\"\n}"
+				}
+			]
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phone\":\"08131631893\",\r\n    \"password\":\"password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "login with email and password",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"samuelolubayo@gmail.com\",\r\n    \"password\":\"password\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 07 Jan 2022 18:00:42 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 07 Jan 2022 18:00:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.3.25"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYTEwNTM2YmZmYzMwODQ5NmQyYjJmNjM0N2YyNDJmZjdlMmI0ZDA5MGQ5NTgyZTg2ZWQ5YWMzZTM2NWZhNTM1OTM1Yzc0NDQ1MTJlYTJhNDAiLCJpYXQiOjE2NDE1Nzg0NDIsIm5iZiI6MTY0MTU3ODQ0MiwiZXhwIjoxNjczMTE0NDQyLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.poq6yp_mZ3SgXCrZIaNJ1hGlMykN4P0qpzmHdZbKgA2qqE9I5GIyOlqPYreXlgQMpVhqyOC8Awiy1m21BPoWtZmvCJJCu8J0EZJISNUZnq8sToKF1bZPNipvkMke90UzjToValdITY2PSTO6WyVHPSmg9MQNB2fDBDe9DHuE5GuhKxlJqJwwjfPyokwDrX8Guk9AGQ7G2NyArd4_y_qkfkDYhU94ChZf-PkmCuZ9TvucpjrhTAhNOtngvGv2GJNoVdCxAT11pjBr6Zc7oeq-VsAerCd3je7FqfIH5owqhsLoZitGDGN_udkCATJvuZKwXCbYeB1D2sUgEtv_d5fAlJ5nBQJGqPLKCfeRRiCVSi92ddMG_pYbkmhc9UMWXN_7VuEBn0_bJypoqPbtuvFK7AZxK5CTFd-bKxZpRyaXO0XqX50zMnIUbJmNJhVZFO4LgQTlA3iqsWKwDMzuATfU9HNzFfrg7rYxZPrwH1C-3BMtdeHDvq5pR40fHzyJDVRTZ_bCfcBKg7w2qk79v3xNCTKSIOLDj6H7vpuGWBL7SV25uYnQPp1zEnK0bQuWS7GKg6M_ApwNTBpz4avyDRKkVgc4EDoBLchfzk2NNQENN_EkAfF2dsHjqK03mWyXXpnP3sh2dYgYefhmwFW5robP9xRXZui0mlPTCRBTb7hFKak\",\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Samuel Olubayo\",\n        \"email\": \"samuelolubayo@gmail.com\",\n        \"phone\": \"08131631893\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2022-01-07T17:48:51.000000Z\",\n        \"updated_at\": \"2022-01-07T17:48:51.000000Z\"\n    },\n    \"status\": \"ok\",\n    \"success\": true,\n    \"message\": \"Login Successful\"\n}"
+				},
+				{
+					"name": "login with phone and password",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"phone\":\"08131631893\",\r\n    \"password\":\"password\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 07 Jan 2022 18:02:27 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 07 Jan 2022 18:02:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.3.25"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiODQ2MjE0ZGQ1ZGE0YTNiMzg4Y2QwNWM4YjRjMGQ1OWU3YjkxYTk0MmFjYzQ5OWJjMTIzNDFjMTkxZjNmYmQ5Y2YwYWJkNjA3NzEwY2M5YWEiLCJpYXQiOjE2NDE1Nzg1NDYsIm5iZiI6MTY0MTU3ODU0NiwiZXhwIjoxNjczMTE0NTQ2LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.jZVwjpKJiKdSoz6EwNNl7qSrdVlizDmIyTYUe5ybJQznamqylfDYZhEmXGafRsB4Y_OEyHTvJdxxUIVesr8h_VMf9GBFetps8U-tRZOz8PHxSlVfAtQ9SGBhF7XWdTO5R9WYj6yFGyTdnax78s3dhCGy3pIPOcrVBddUNLHkq4OSwqfIeldt8GzokXm6P6lHbnNV78oAjjPuLv6rdsmcwqlFnCs8X9zWkIcYWq9akcxJLq6boPVTO6Slt06mySa7Az4n1L2JWnSL_i7ZCdGQ3bnZf8SyfmzDVCoth_XepCw7ShCzfrJwO7UXZQQ2iWK9Fibap_qEBoG6VDT5PFD22S6sMzpfLvKuKCD8f79vvZ8dNx5tAsQ4i0GQj6nZG0LWUqx260E33p9AwxILYaQHEAjlw_15yRhFccBHXg92atkjykteE9gCGTvHMn8KenZucEAH2DVW4x3ilDL1Gr-uARAHHTmXyjAiESXCJnuUcdE11oouvVarPnd4dMIwivdYGsh_q7nwvz5NvroOHI_IcPLez_gweJcaYsAN49CffpSEwOutnvpfgLDj24_MX6fwEjChVDXnxCLJSYXJOb0a3EHAUG3tsjMwSWv7RihSKdOVo8MECqeUaEwLLknR4nihWAFse7vaHcsUYG_oH5HDYvKraZtnqyqrCEAN9J9VIrA\",\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Samuel Olubayo\",\n        \"email\": \"samuelolubayo@gmail.com\",\n        \"phone\": \"08131631893\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2022-01-07T17:48:51.000000Z\",\n        \"updated_at\": \"2022-01-07T17:48:51.000000Z\"\n    },\n    \"status\": \"ok\",\n    \"success\": true,\n    \"message\": \"Login Successful\"\n}"
+				}
+			]
+		}
+	]
+}
