@@ -4,6 +4,11 @@ A laravel Passport authenticated api that validated a user's email address or ph
 
 # requirements
 
+-   MySql >= 5.7.31
+-   PHP >= 7.3.21
+-   Postman
+-   Terminal or Command Prompt (To run commands)
+
 ### Set up
 
 ```
@@ -54,13 +59,16 @@ POST {BASE_URL}api/login
 POST {BASE_URL}api/login
 { "phone":"YOUR_REGISTERED_PHONE_NUMBER","password":"YOUR_REGISTERED_PASSWORD"}
 ```
+
 ### Postman Collection
-For faster api usage, find the postman collection 
+
+For faster api usage, find the postman collection
+
 ```
 clafiya.postman_collection.json
-``` 
-in the root folder of the project.
+```
 
+in the root folder of the project.
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
