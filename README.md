@@ -21,6 +21,9 @@ cd clafiya
 # Env File
 rename .env.example file to .env or create .env file and update your mysql database credential
 
+# Generate Application Key
+php artisan key:generate
+
 # Run Migrations
 php artisan migrate
 
